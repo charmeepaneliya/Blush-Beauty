@@ -73,6 +73,16 @@ body{
     height: 270px !important;
 }
 
+.ftr-col > a{
+    text-decoration: none !important;
+}
+.ftr-col-icon >h4{
+  width: 250px;
+}
+.ftr-row{
+    width: 200px;
+}
+
 
 
 @media screen and (max-width:768px) {
