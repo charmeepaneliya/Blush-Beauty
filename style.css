@@ -19,13 +19,19 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh; */
-    background-color:#e7e5d8 !important;
+    /* background-color:#e7e5d8 !important; */
+    background-color: #faeee5 !important;
+    /* background-color:#f9f8f2 !important; */
 }
 .nav-link:hover{
-    color:brown !important;
+    color:#6c757d !important;
     box-shadow: rgba(214, 10, 10, 0.35) 0px 5px 15px;
     border-radius: 10px;
 
+}
+.dropdown-item:hover{
+    background-color:#c4777f !important;
+    color: white !important;
 }
 .carousel-item > img {
   width: 100%;
@@ -37,18 +43,30 @@ body{
        width: 100%;
        object-fit: cover;
        object-position: right;
+
+       transform: scale(1.04);
+      transition: transform 0.2s ease-in-out;
+     /* box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+      box-shadow: rgba(255, 255, 255, 0.89) 0px 20px 30px -10px;
     }
 .about-border{
-   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-   border-radius: 50px;
+   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   border-radius: 50px; */
    
+}
+.about-img:hover{
+     /* transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+     box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+      transform: scale(1.07);
+      transition: transform 0.4s ease-in-out;
 }
 
 /* card section */
 
 .card{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    border: 1px solid rgba(255, 2, 2, 0.662) !important;
+    border: 3px solid #c4777f !important ;
    
 }
 .card:hover{
@@ -56,7 +74,8 @@ body{
       transform: scale(1.05);
       transition: transform 0.3s ease-in-out;
       /* box-shadow: 0 4px 10px rgba(249, 3, 3, 0.1); */
-      box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px;
+      /* box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+       box-shadow: #c4777f 0px 20px 30px -10px;
     }
 
 
@@ -64,11 +83,16 @@ body{
     object-fit: cover;
     height: 400px;
 }
-.about-img:hover{
-     transform: scale(1.05);
-      transition: transform 0.3s ease-in-out;
-     box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px;
+.btn{
+   box-shadow: #c4777f 0px 0px 0px 2px, #c4777f 0px 4px 6px 1px, #c4777f 0px 1px 70px inset;
+    transform: scale(1.04);
+      transition: transform 0.2s ease-in-out;
 }
+.team-card{
+    /* border: 1px solid rgba(255, 2, 2, 0.662) !important; */
+     border: 1px solid #c4777f !important;
+}
+
 .team-img{
     height: 270px !important;
 }
@@ -96,13 +120,14 @@ body{
        transform: scale(1.05);
       transition: transform 0.3s ease-in-out;
       /* box-shadow: 0 4px 10px rgba(249, 3, 3, 0.1); */
-      box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px;
-    
+      /* box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+         box-shadow: #c4777f 0px 20px 30px -10px;
     }
     .about-img:hover{
      transform: scale(1.05);
       transition: transform 0.3s ease-in-out;
-     box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px;
+     /* box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+      box-shadow: #c4777f 0px 20px 30px -10px;
 }
 }
 @media screen and (min-width:768px , max-width:991px) {
