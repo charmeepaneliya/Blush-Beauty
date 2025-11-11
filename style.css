@@ -23,6 +23,11 @@ body{
     background-color: #faeee5 !important;
     /* background-color:#f9f8f2 !important; */
 }
+/* .navbar{
+    backdrop-filter: blur(60px);
+    z-index: 10;
+    height: 40px;
+} */
 .nav-link:hover{
     color:#6c757d !important;
     box-shadow: rgba(214, 10, 10, 0.35) 0px 5px 15px;
@@ -38,6 +43,8 @@ body{
   height: 95vh; 
   object-fit: cover;
 }
+
+
 .about .about-img{
        height: 400px; 
        width: 100%;
@@ -55,9 +62,7 @@ body{
    
 }
 .about-img:hover{
-     /* transform: scale(1.05);
-      transition: transform 0.3s ease-in-out;
-     box-shadow: rgb(198, 2, 2) 0px 20px 30px -10px; */
+     
       transform: scale(1.07);
       transition: transform 0.4s ease-in-out;
 }
@@ -66,7 +71,7 @@ body{
 
 .card{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    border: 3px solid #c4777f !important ;
+    border: 0px solid #c4777f !important ;
    
 }
 .card:hover{
@@ -130,7 +135,7 @@ body{
       box-shadow: #c4777f 0px 20px 30px -10px;
 }
 }
-@media screen and (min-width:768px , max-width:991px) {
+@media screen and (min-width:768px)and( max-width:991px) {
     .about .about-img{
        height: 500px; 
        width: 100%;
